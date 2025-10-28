@@ -1,9 +1,11 @@
+## Presentation
 This repository contains my references for repairing the discontinued Logitech Trackball (I only experienced with the 4-button version).
 
 ![Logitech Trackman](images/trackman_0.jpg)
 
 The main failure point for these trackball is the buttons, becoming unreliable, either not clicking or always double/triple clicking. 
 
+## Inspiration
 I got inspired from two contributions:
  * This youtube video detailing how to change the mouse microswitches: [https://www.youtube.com/watch?v=oGf5q5bjra0]
  * These designs and instructions to reinforce the mouse internal structure: [https://www.thingiverse.com/thing:3416522] (Note, there are also upgraded instructions for the 2-button version here: [https://www.thingiverse.com/thing:4754168]). I followed the instruction there to prepare the mouse and I printed the two simple parts that are inserted around the center screw to increase the rigidity.
@@ -19,6 +21,7 @@ and fits snuggly around it, supporting and rigidifying the PCB.
 
 After implementing on my two mice, I identified that one switch was reliably double-clicking. I replaced it following the instructions in the video and the mouse is good to go. 
 
+## Installation steps
 Once the mouse is open, the button pcb detached from the plastic holders, and two parts printed, here are the steps:
 1) clip the model around the cable on the side where you want to route it:
 ![Repair Step 1](images/trackman_1.jpg)
@@ -33,3 +36,6 @@ Once the mouse is open, the button pcb detached from the plastic holders, and tw
 ![Repair Step 4](images/trackman_4.jpg)
 
 5) possibly insert the rigidifying blocks at the center (seen in the picture here, design at [https://www.thingiverse.com/thing:3416522]), reroute the cable, reassemble plastic casing, and you can test the buttons. If some of them are still double clicking, you're probably good for changing the corresponding switch.  
+
+## Troubleshooting
+In one of my mice, I found that one of the button was a bit hard to click after reassembling the mouse. I unscrewed the center screw (the one below the sticker) by one turn, and it became comfortable again. Given that there are 5 screws holding the mouse case, this is a sufficient fix.
